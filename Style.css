@@ -1,0 +1,78 @@
+header{
+    background-color: #00008b;
+    color: white;
+    padding: 30px;
+}
+
+.cabeçalho{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 2em;
+}
+
+.cabeça{
+    font-size: 20px;
+}
+
+.listageral{
+    font-size: 20px;
+    position: absolute;
+    right: 0px;
+    top: 5px;
+}
+
+.listageral li{
+    display: inline;
+    margin: 10px;
+}
+
+.listageral a{
+    text-decoration: none;
+    color: white;
+}
+
+.listageral a:hover{
+    color: red;
+    text-decoration: dashed;
+}
+
+.navs{
+    position: absolute;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navs h2, .navi h2{
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.navs div, .navi div{
+    display: inline-block;
+    margin: 0 1.5%;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+}
+
+.navi{
+    position: absolute;
+    width: 50%;
+    margin: 0 auto;
+    right: 0px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navs h3, .navi h3{
+    font-size: 1.3em;
+    padding: 15px;
+    font-weight: bold;
+}
